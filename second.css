@@ -1,0 +1,106 @@
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+}
+body{
+    background-color:red;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+/* Hide for mobile, show later */
+.sidebar {
+    display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #CCCCCC;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav-sidebar > .active > a {
+    color: black;
+    background-color: gray;
+}
+
+.tic{
+    top:100px;
+    height:500px;
+    width:300px;
+    margin:auto;
+}
+.tac{
+    margin:auto;
+}
+
+#header{
+    height:100px;
+    width:100%;
+    font-size:48px;
+    text-align: center;
+
+}
+.square{
+    height:100px;
+    width: 100px;
+    border: 5px solid black;
+    font-size:72px;
+    text-align:center;
+    vertical-align: center;
+}
+.buttonHolder{
+    height:100px;
+    width: 100px;
+    text-align:center;
+    vertical-align: center;
+}
+
+button{
+    position:relative;
+    top:20px;
+    margin:auto;
+    opacity: 0;
+}
+#example{
+float: right;
+margin-bottom:20px;
+}
+#result{
+	float:right;
+}
+#w1{
+	font-size: 48px;
+}
+.panel-title{
+	font-size: 24px;
+}
+#stuff{
+	font-size:18px;
+}
+.secondP{
+	margin-top: 300px;
+}
