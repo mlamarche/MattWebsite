@@ -102,5 +102,16 @@ margin-bottom:20px;
 	font-size:18px;
 }
 .secondP{
-	margin-top: 300px;
+	margin-top: 30%;
+}
+#addition{
+    right:0;
+    bottom:0;
+    height:20px;
+    width:20px;
+    color: black;
+    background-color: gray;
+}
+.theme-showcase{
+    width:85%;
 }
